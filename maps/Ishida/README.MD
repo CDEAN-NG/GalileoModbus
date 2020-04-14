@@ -72,4 +72,4 @@
 | System Type [DACS-G, DIX-G] | 4 (read/write) | 1091 | 1 | Unsigned 16-bit Integer | Little Endian |
 | Scale Type [015, 060] | 4 (read/write) | 1092 | 1 | Unsigned 16-bit Integer | Little Endian |
 | Use Weight Log | 4 (read/write) | 1149 | 1 | Bool | Little Endian |
-| Use Weight Log | 4 (read/write) | 1275 | 1 | Bool | Little Endian |
+| Auto-Zero Fault | 4 (read/write) | 1275 | 1 | Bool | Little Endian |
