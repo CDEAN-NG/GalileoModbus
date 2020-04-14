@@ -18,8 +18,8 @@
 | Product Name | 3 (Read) | 542 | 12 | String | Little Endian |
 | Total Count | 3 (Read) | 568 | 2 | Unsigned 32-bit Integer | Little Endian |
 | Maximum Weight Seen (divide by 10) | 3 (Read) | 570 | 2 | Unsigned 32-bit Integer | Little Endian |
-| Minimum Weight Seen | 3 (Read) | 572 | 2 | Unsigned 32-bit Integer | Little Endian |
-| Standard Deviation Seen | 3 (Read) | 578 | 2 | Unsigned 32-bit Integer | Little Endian |
+| Minimum Weight Seen (divide by 10) | 3 (Read) | 572 | 2 | Unsigned 32-bit Integer | Little Endian |
+| Standard Deviation (divide by 10) | 3 (Read) | 578 | 2 | Unsigned 32-bit Integer | Little Endian |
 | Proper Count | 3 (Read) | 586 | 2 | Unsigned 32-bit Integer | Little Endian |
 | Under Count | 3 (Read) | 588 | 2 | Unsigned 32-bit Integer | Little Endian |
 | Over Count | 3 (Read) | 590 | 2 | Unsigned 32-bit Integer | Little Endian |
