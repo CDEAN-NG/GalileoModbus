@@ -153,6 +153,7 @@ void MainWindow::onDisconnect()
     mUi->sendButton->setDisabled(true);
     mUi->disconnectButton->setDisabled(true);
     mUi->connectButton->setDisabled(false);
+    mUi->settingsWidget->setEnabled(true);
 }
 
 void MainWindow::onSend()
@@ -218,8 +219,6 @@ void MainWindow::setDataOutput(QVector<quint16> &data)
 {
     auto leftToRight = !bool(mUi->byteOrder->currentIndex());
     auto dataType = mUi->dataType->currentIndex();
-//    int startIndex = 0;
-//    int end = data.size();
     switch(dataType) {
         case ModbusDataType::Bool:{
             quint32 accumulator(0);

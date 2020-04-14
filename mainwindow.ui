@@ -880,12 +880,12 @@
                   <widget class="QComboBox" name="byteOrder">
                    <item>
                     <property name="text">
-                     <string>High-&gt;Low</string>
+                     <string>Low -&gt; High (little endian)</string>
                     </property>
                    </item>
                    <item>
                     <property name="text">
-                     <string>Low-&gt;High</string>
+                     <string>High -&gt; Low (big endian)</string>
                     </property>
                    </item>
                   </widget>
@@ -1147,7 +1147,7 @@
      <x>0</x>
      <y>0</y>
      <width>1368</width>
-     <height>20</height>
+     <height>25</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
