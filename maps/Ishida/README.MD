@@ -27,7 +27,7 @@
 | OK Over Count | 3 (Read) | 594 | 2 | Unsigned 32-bit Integer | Little Endian |
 | Pass Count | 3 (Read) | 604 | 2 | Unsigned 32-bit Integer | Little Endian |
 | All Count | 3 (Read) | 606 | 2 | Unsigned 32-bit Integer | Little Endian |
-| Histogram Base Value (divide by 10) | 3 (Read) | 612 | 2 | Unsigned 32-bit Integer | Little0 |
+| Histogram Base Value (divide by 10) | 3 (Read) | 612 | 2 | Unsigned 32-bit Integer | Little Endian |
 | Histogram Interval Value | 3 (read) | 614 | 2 | Unsigned 32-bit Integer | Little Endian |
 | Histogram Field (1) | 3 (read) | 616 | 2 | Unsigned 32-bit Integer | Little Endian |
 | Histogram Field (2) | 3 (read) | 618 | 2 | Unsigned 32-bit Integer | Little Endian |
